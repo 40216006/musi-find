@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "964743217450",
+    "firebase_url": "https://musifind-43696.firebaseio.com",
+    "project_id": "musifind-43696",
+    "storage_bucket": "musifind-43696.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964743217450:android:b8c6053beaefdbf1",
+        "android_client_info": {
+          "package_name": "com.example.colin.musifind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964743217450-qmsjloejefc8f8kd2is1q4nk2f5o4s6c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.colin.musifind",
+            "certificate_hash": "27731c6906ee3bdaf9643fa461f43dcf6c6b2778"
+          }
+        },
+        {
+          "client_id": "964743217450-t2j5ji1dvubres19spu54sipkqsvnrgs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsiIsv14cpl8d_8ScvDwKPlTmeQz4EzRw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964743217450-t2j5ji1dvubres19spu54sipkqsvnrgs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
