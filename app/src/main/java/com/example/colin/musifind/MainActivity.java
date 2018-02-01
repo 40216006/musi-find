@@ -38,8 +38,11 @@ public class MainActivity extends AppCompatActivity {
 
         checkUserSex();
 
+
+        mAuth = FirebaseAuth.getInstance();
+
         al = new ArrayList<>();
-      
+
 
         arrayAdapter = new ArrayAdapter<>(this, R.layout.item, R.id.helloText, al );
 
@@ -71,11 +74,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onAdapterAboutToEmpty(int itemsInAdapter) {
-                // Ask for more data here
-                al.add("XML ".concat(String.valueOf(i)));
-                arrayAdapter.notifyDataSetChanged();
-                Log.d("LIST", "notified");
-                i++;
+
             }
 
             @Override
