@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+
+
 public class ChooseLoginOrRegisterActivity extends AppCompatActivity {
 
     private Button mLogin, mRegister;
@@ -20,14 +22,13 @@ public class ChooseLoginOrRegisterActivity extends AppCompatActivity {
         mLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 Intent intent = new Intent(ChooseLoginOrRegisterActivity.this, LoginActivity.class);
                 startActivity(intent);
                 finish();
                 return;
-
             }
         });
+
         mRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -35,7 +36,6 @@ public class ChooseLoginOrRegisterActivity extends AppCompatActivity {
                 startActivity(intent);
                 finish();
                 return;
-
             }
         });
     }
